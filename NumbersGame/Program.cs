@@ -22,7 +22,7 @@ namespace NumbersGame
                     int userPick = int.Parse(userChoice);
 
                     Random random = new Random();
-                    int computerPick = random.Next(1,5);
+                    int computerPick = random.Next(1,100);
 
                     if (computerPick > userPick)
                     {
